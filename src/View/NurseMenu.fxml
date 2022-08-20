@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NurseController">
+   <top>
+      <AnchorPane prefHeight="44.0" prefWidth="670.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logout" layoutX="515.0" layoutY="9.0" mnemonicParsing="false" onAction="#loginOutAction" text="log out" />
+            <Button fx:id="exit" layoutX="585.0" layoutY="9.0" mnemonicParsing="false" onAction="#exitSystemButtonAction" text="Exit System" />
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="654.0" prefWidth="670.0" BorderPane.alignment="CENTER">
+         <children>
+            <Region layoutX="23.0" layoutY="55.0" prefHeight="326.0" prefWidth="294.0" style="-fx-border-color: grey;" />
+            <Region layoutX="348.0" layoutY="55.0" prefHeight="325.0" prefWidth="286.0" style="-fx-border-color: grey;" />
+            <Region layoutX="35.0" layoutY="74.0" prefHeight="50.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="170.0" layoutY="74.0" prefHeight="50.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="360.0" layoutY="74.0" prefHeight="50.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="500.0" layoutY="74.0" prefHeight="50.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="35.0" layoutY="143.0" prefHeight="103.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="170.0" layoutY="143.0" prefHeight="102.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="35.0" layoutY="267.0" prefHeight="98.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="170.0" layoutY="267.0" prefHeight="97.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="360.0" layoutY="143.0" prefHeight="102.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="500.0" layoutY="143.0" prefHeight="104.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="361.0" layoutY="267.0" prefHeight="100.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Region layoutX="500.0" layoutY="267.0" prefHeight="99.0" prefWidth="122.0" style="-fx-border-color: grey;" />
+            <Button fx:id="bed10101" layoutX="75.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="10101" />
+            <Button fx:id="bed10201" layoutX="181.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="10201" />
+            <Button fx:id="bed10202" layoutX="238.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="10202" />
+            <Button fx:id="bed20101" layoutX="400.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="20101" />
+            <Button fx:id="bed20201" layoutX="510.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="20201" />
+            <Button fx:id="bed20202" layoutX="562.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickBed" text="20202" />
+            <Button fx:id="bed10301" layoutX="45.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="10301" />
+            <Button fx:id="bed10302" layoutX="97.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="10302" />
+            <Button fx:id="bed10303" layoutX="45.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="10303" />
+            <Button fx:id="bed10304" layoutX="97.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="10304" />
+            <Button fx:id="bed10401" layoutX="181.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="10401" />
+            <Button fx:id="bed10402" layoutX="238.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="10402" />
+            <Button fx:id="bed10403" layoutX="181.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="10403" />
+            <Button fx:id="bed10404" layoutX="238.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="10404" />
+            <Button fx:id="bed20301" layoutX="369.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="20301" />
+            <Button fx:id="bed20302" layoutX="422.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="20302" />
+            <Button fx:id="bed20303" layoutX="369.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="20303" />
+            <Button fx:id="bed20304" layoutX="422.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="20304" />
+            <Button fx:id="bed20401" layoutX="510.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="20401" />
+            <Button fx:id="bed20402" layoutX="562.0" layoutY="157.0" mnemonicParsing="false" onAction="#clickBed" text="20402" />
+            <Button fx:id="bed20403" layoutX="510.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="20403" />
+            <Button fx:id="bed20404" layoutX="562.0" layoutY="199.0" mnemonicParsing="false" onAction="#clickBed" text="20404" />
+            <Button fx:id="bed10501" layoutX="45.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="10501" />
+            <Button fx:id="bed10502" layoutX="97.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="10502" />
+            <Button fx:id="bed10503" layoutX="45.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="10503" />
+            <Button fx:id="bed10504" layoutX="97.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="10504" />
+            <Button fx:id="bed10601" layoutX="181.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="10601" />
+            <Button fx:id="bed10602" layoutX="238.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="10602" />
+            <Button fx:id="bed10603" layoutX="181.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="10603" />
+            <Button fx:id="bed10604" layoutX="238.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="10604" />
+            <Button fx:id="bed20501" layoutX="369.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="20501" />
+            <Button fx:id="bed20502" layoutX="422.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="20502" />
+            <Button fx:id="bed20503" layoutX="369.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="20503" />
+            <Button fx:id="bed20504" layoutX="422.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="20504" />
+            <Button fx:id="bed20601" layoutX="510.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="20601" />
+            <Button fx:id="bed20602" layoutX="562.0" layoutY="279.0" mnemonicParsing="false" onAction="#clickBed" text="20602" />
+            <Button fx:id="bed20603" layoutX="510.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="20603" />
+            <Button fx:id="bed20604" layoutX="562.0" layoutY="323.0" mnemonicParsing="false" onAction="#clickBed" text="20604" />
+            <Label layoutX="147.0" layoutY="21.0" text="Ward1" />
+            <Label layoutX="481.0" layoutY="21.0" text="Ward2" />
+            <Label layoutX="27.0" layoutY="392.0" prefHeight="18.0" prefWidth="218.0" text="Select a bed to show patient  information" />
+            <Label fx:id="patientInformation" layoutX="23.0" layoutY="410.0" prefHeight="51.0" prefWidth="260.0" style="-fx-background-color: white;" text="Patient information" textFill="RED" />
+            <TableView fx:id="prescriptionInfomation" layoutX="23.0" layoutY="481.0" prefHeight="114.0" prefWidth="250.0" />
+            <Label fx:id="selectAnotherBed" layoutX="400.0" layoutY="426.0" prefHeight="18.0" prefWidth="147.0" textFill="RED" />
+            <Label layoutX="278.0" layoutY="528.0" prefHeight="18.0" prefWidth="166.0" text="Administering this prescription ==&gt;&gt;&gt;&gt;&gt;" />
+            <Button fx:id="takeMedicine" layoutX="451.0" layoutY="524.0" mnemonicParsing="false" onAction="#takeMedicineAction" prefHeight="26.0" prefWidth="158.0" text="Finished taking medicine" />
+            <Label fx:id="message" layoutX="329.0" layoutY="472.0" prefHeight="18.0" prefWidth="303.0" textFill="RED" />
+            <Label layoutX="28.0" layoutY="463.0" prefHeight="18.0" prefWidth="133.0" text="Prescription for this Patient: " />
+            <Button fx:id="selectPatient" layoutX="294.0" layoutY="422.0" mnemonicParsing="false" onAction="#selectThisPatient" prefHeight="26.0" prefWidth="93.0" text="Select this patient " />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
